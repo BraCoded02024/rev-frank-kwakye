@@ -1,0 +1,39 @@
+.invitation-page{background:#f4f0e6;color:#303a2b;color-scheme:light;min-height:100svh}
+.invitation-nav{max-width:1440px;margin:auto;padding:27px 6vw;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #34422c20}
+.invitation-brand{display:flex;gap:16px;align-items:center;text-decoration:none}.invitation-brand>span:first-child{font:44px/1 var(--serif)}.invitation-brand>span:last-child{font-size:8px;letter-spacing:.18em;line-height:1.8}
+.invitation-back{display:flex;align-items:center;gap:10px;font-size:11px;text-decoration:none;padding:12px 0}
+.invitation-main{max-width:1280px;margin:auto;padding:64px 6vw 0;z-index:auto}
+.invitation-eyebrow{font-size:9px;letter-spacing:.2em;line-height:1.8;color:#73765e;display:flex;align-items:center;gap:12px}
+.invitation-eyebrow>span{width:24px;height:1px;background:#9b8455}
+.invitation-heading{padding-bottom:48px;position:relative}.invitation-heading h1{font-size:clamp(50px,5.8vw,84px);line-height:.96;letter-spacing:-.035em}.invitation-heading h1 em{font-weight:500;color:#747b53}
+.invitation-heading>p:last-child{font-size:13px;line-height:1.85;color:#727467;max-width:45ch;margin:24px 0 0}
+.invitation-layout{display:grid;grid-template-columns:minmax(240px,.72fr) minmax(0,1.4fr);gap:clamp(30px,5vw,72px);align-items:start}
+.invitation-portrait{position:relative;margin:0;aspect-ratio:4/4.7;background:#263828;overflow:hidden}
+.invitation-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 22%}
+.invitation-portrait:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#18291ae6)}
+.invitation-portrait figcaption{position:absolute;z-index:1;bottom:25px;left:26px;color:#fff9e9}
+.invitation-portrait figcaption>span{font-size:7px;letter-spacing:.2em;color:#e1d6b5}.invitation-portrait figcaption>p{font:36px/1.02 var(--serif);margin:12px 0 0}
+.invitation-profile{padding:24px 0;border-bottom:1px solid #35432b26}.invitation-profile h2{font-size:29px;line-height:1.2}.invitation-profile>p{font-size:11px;line-height:1.8;color:#757869;margin:8px 0 19px}.invitation-profile>div{display:flex;gap:10px;align-items:flex-start;font-size:10px;line-height:1.9;color:#73775e}.invitation-profile svg{margin-top:3px;flex-shrink:0}
+.invitation-direct{padding-top:25px}.invitation-direct>a{display:flex;align-items:center;gap:14px;padding:16px 0;text-decoration:none;border-bottom:1px solid #34422c20;font-size:12px}.invitation-direct>a>span{flex:1;min-width:0}.invitation-direct small{display:block;color:#81816e;font-size:10px;margin-top:3px;overflow-wrap:anywhere}
+.invitation-form-card{background:#fffcf5;padding:clamp(24px,3.2vw,45px);border:1px solid #dedbcd;box-shadow:0 12px 50px #39432905}
+.invitation-card-heading{display:flex;justify-content:space-between;font-size:8px;letter-spacing:.18em;color:#92845f;padding-bottom:24px;border-bottom:1px solid #dfddcf;margin-bottom:26px}
+.invitation-page .contact-panel{padding:0;margin:0;background:none;border:0}.invitation-page .invite-form{display:block;margin:0;padding:0}
+.invitation-page .invite-form h2{font-size:34px;line-height:1.05;letter-spacing:-.015em}.invitation-page .invite-intro{font-size:11px;color:#818173;margin:12px 0 30px;line-height:1.8}
+.invitation-page .invite-form fieldset{border:0;margin:0 0 27px;padding:0;min-width:0}
+.invitation-page .invite-form legend{display:flex;align-items:center;gap:10px;font:22px/1.2 var(--serif);padding:0 0 18px;width:100%}
+.invitation-page .invite-form legend>span{font:9px var(--sans);color:#96845e;letter-spacing:.05em}
+.invitation-page .invite-field-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+.invitation-page .invite-form label{display:flex;flex-direction:column;gap:7px;color:#585f4d;font-size:10px;letter-spacing:.01em}
+.invitation-page .invite-form input,.invitation-page .invite-form textarea{width:100%;min-width:0;background:#f6f4ed;border:1px solid #deded0;border-radius:0;color:#303a2b;padding:12px;font:12px/1.5 var(--sans);outline:none;min-height:44px}
+.invitation-page .invite-form textarea{resize:vertical;min-height:120px}.invitation-page .invite-form input::placeholder,.invitation-page .invite-form textarea::placeholder{color:#9a9b8a;font-size:11px}
+.invitation-page .invite-form input:focus,.invitation-page .invite-form textarea:focus{border-color:#788260;box-shadow:0 0 0 2px #78826020}
+.invitation-page .invite-form>button{width:100%;display:flex;align-items:center;justify-content:space-between;background:#34452e;border:1px solid #34452e;color:#f7f3e7;padding:16px 20px;font-size:12px;cursor:pointer;margin:0;min-height:52px}
+.invitation-page .invite-form>button:hover{background:#45583c}.invitation-page .invite-form>button:disabled{opacity:.6;cursor:wait}
+.invitation-page .form-error,.invitation-page .form-ok{font-size:12px;padding:14px;margin-top:16px;background:#f1ecde}.invitation-page .form-error{color:#923f2b}.invitation-page .form-ok{color:#3e6838}
+.invitation-aftercare{border-top:1px solid #dfddcf;margin-top:26px;padding-top:20px}.invitation-aftercare>span{font-size:8px;letter-spacing:.18em;color:#93845e}.invitation-aftercare>p{font-size:10px;line-height:1.9;color:#878879;margin:9px 0 0}
+.invitation-areas{margin:64px 0 0;padding:30px 0;border-top:1px solid #34422c20}.invitation-areas>div{display:flex;justify-content:space-between;gap:20px;font:23px var(--serif);color:#697052}
+.invitation-footer{max-width:1440px;margin:30px auto 0;border-top:1px solid #34422c20;padding:26px 6vw;display:flex;justify-content:space-between;gap:20px;color:#878772;font-size:9px;letter-spacing:.08em}.invitation-footer a{display:flex;align-items:center;gap:8px;text-decoration:none}
+.invitation-page a:focus-visible,.invitation-page button:focus-visible{outline:2px solid #65764c;outline-offset:5px}
+@media(min-width:1000px){.invitation-heading>p:last-child{position:absolute;right:0;bottom:50px;max-width:32ch}.invitation-aside{padding-top:3px}}
+@media(max-width:700px){.invitation-nav{padding:22px 6vw}.invitation-brand>span:first-child{font-size:35px}.invitation-brand>span:last-child{font-size:6px}.invitation-back{font-size:9px;gap:5px}.invitation-main{padding-top:38px}.invitation-heading{padding-bottom:32px}.invitation-heading h1{font-size:53px}.invitation-heading>p:last-child{font-size:12px}.invitation-layout{grid-template-columns:1fr;gap:32px}.invitation-form-card{grid-row:1;padding:24px}.invitation-page .invite-form h2{font-size:30px}.invitation-page .invite-field-grid{grid-template-columns:1fr;gap:17px}.invitation-portrait{max-height:380px;aspect-ratio:4/3}.invitation-portrait img{object-position:center 24%}.invitation-areas{margin-top:38px}.invitation-areas>div{flex-direction:column;gap:12px;font-size:24px}.invitation-footer{flex-wrap:wrap;font-size:8px}.invitation-footer>a{margin-left:auto}}
+@media(max-width:700px){.invitation-page .invite-form input,.invitation-page .invite-form textarea{font-size:16px}.invitation-page .invite-form input::placeholder,.invitation-page .invite-form textarea::placeholder{font-size:13px}}

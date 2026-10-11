@@ -1,0 +1,22 @@
+.church-gallery{clear:both;padding:clamp(28px,5vw,70px);background:radial-gradient(ellipse at 50% 0,#354331,#141e18 75%);color:#f4ecdc}
+.church-gallery-heading{max-width:600px;margin-bottom:42px}
+.church-gallery-heading>p{font-size:10px!important;letter-spacing:.19em;color:#ceba8e;line-height:1.8}
+.church-gallery-heading h2{font-family:var(--serif);font-size:clamp(38px,5vw,68px);font-weight:500;line-height:1.05;margin:15px 0}
+.church-gallery-heading>span{font-size:13px;line-height:1.8;color:#c6cbbb}
+.church-gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,36px);align-items:start}
+.church-gallery .church-photo{display:block;padding:0;background:none;color:inherit;border:0;text-align:left;cursor:pointer;min-width:0;animation:church-arrive .8s both}
+.church-photo:nth-child(2){margin-top:38px;animation-delay:.12s!important}.church-photo:nth-child(3){animation-delay:.24s!important}
+.church-photo-frame{display:block;padding:9px;border:1px solid #ac9565;background:#e9dfca;box-shadow:0 20px 35px #0005;transition:transform .45s,box-shadow .45s;transform-origin:50% 80%}
+.church-gallery .church-photo-frame img{display:block;width:100%;height:auto;float:none;margin:0;max-width:none;object-fit:contain}
+.church-photo:hover .church-photo-frame{transform:translateY(-8px) rotate(-1deg);box-shadow:0 28px 45px #0008}
+.church-photo:nth-child(2):hover .church-photo-frame{transform:translateY(-8px) rotate(1deg)}
+.church-photo-caption{display:flex;align-items:center;gap:12px;padding-top:19px}.church-photo-caption small{color:#c6ac79;font-size:10px}.church-photo-caption strong{font-family:var(--serif);font-size:clamp(18px,2vw,26px);font-weight:500}.church-photo-caption>span{margin-left:auto;color:#c6ac79}
+.church-gallery button:focus-visible{outline:2px solid #e8c78a;outline-offset:6px}
+.church-photo-viewer{position:fixed;inset:0;margin:auto;width:min(1000px,96vw);max-width:96vw;max-height:96svh;padding:16px;border:1px solid #ab9466;background:#101912;color:#f4ecdc;overflow:auto;box-shadow:0 30px 100px #0009}
+.church-photo-viewer::backdrop{background:#060b08e8;backdrop-filter:blur(12px)}
+.church-gallery .church-photo-close{display:block;margin:0 0 14px auto;padding:10px 14px;background:#253023;border:1px solid #ac9565;color:inherit;cursor:pointer;font-size:12px}
+.church-gallery .church-photo-full{display:block;width:100%;height:72svh;max-width:none;object-fit:contain;float:none;margin:0;animation:church-arrive .35s both}
+.church-photo-navigation{display:flex;justify-content:center;align-items:center;gap:24px;margin-top:12px}.church-photo-navigation p{text-align:center;font-size:16px!important;margin:0}.church-photo-navigation small{display:block;font-size:10px;color:#c6ac79;margin-top:5px}.church-gallery .church-photo-navigation button{min-width:44px;min-height:44px;background:transparent;color:inherit;border:1px solid #ac9565;cursor:pointer}
+@keyframes church-arrive{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:650px){.church-gallery-grid{grid-template-columns:1fr;gap:35px;max-width:360px;margin:auto}.church-photo:nth-child(2){margin-top:0}.church-gallery-heading{margin-bottom:28px}.church-gallery .church-photo-full{height:65svh}.church-photo-caption strong{font-size:25px}}
+@media(prefers-reduced-motion:reduce){.church-gallery .church-photo,.church-gallery .church-photo-full{animation:none}.church-photo-frame{transition:none}.church-photo:hover .church-photo-frame,.church-photo:nth-child(2):hover .church-photo-frame{transform:none}}
